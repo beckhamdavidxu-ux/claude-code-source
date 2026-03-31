@@ -6,7 +6,7 @@
 curl -LO https://github.com/oven-sh/bun/releases/latest/download/bun-darwin-aarch64.zip
 unzip bun-darwin-aarch64.zip -d /tmp/bun && sudo cp /tmp/bun/bun-darwin-aarch64/bun /usr/local/bin/bun
 
-# 2. 安装/更新依赖（可选，node_modules 已包含在仓库中）
+# 2. 安装/更新依赖
 pnpm install --registry https://registry.npmjs.org
 
 # 3. 构建
