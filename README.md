@@ -1,9 +1,11 @@
 # Cloud-code 破解版
 
 ## 食用指南
-1. 本仓库已经还原好源码，看 claude-code-source 目录
-2. 本地如何编译运行？请查阅claude-code-source/README.md
-3. 根目录下有个ai-cloud-xxxx.tgz文件，这个是2188原npm版本包
+- 本仓库已经还原好源码，看 claude-code-source 目录
+- 本地如何编译运行？请查阅claude-code-source/README.md
+  - 我的电脑是 Macbook Pro Apple 芯片。所以里面用的bun运行时架构为Apple芯片适配
+  - 其他的CPU芯片架构，请自己摸索安装（或者直接让AI处理）
+- 根目录下有个ai-cloud-xxxx.tgz文件，这个是2188原npm版本包
 
 ## 本仓库用到的还原方式
 ```bash
