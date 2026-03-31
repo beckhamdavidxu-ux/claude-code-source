@@ -1,10 +1,11 @@
 # Cloud-code 破解版
 
 ## 如何本地编译运行？
-看 claude-code-source/README.md
+> 本仓库已经还原好源码，看 claude-code-source 目录
 
-## 还原方法
+查阅claude-code-source/README.md
 
+## 本仓库用到的还原方式
 ```bash
 # 1. 从 npm 下载包
 npm pack @anthropic-ai/claude-code --registry https://registry.npmjs.org
