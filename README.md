@@ -1,5 +1,8 @@
 # Cloud-code 破解版
 
+## 如何本地编译运行？
+看 claude-code-source/README.md
+
 ## 还原方法
 
 ```bash
