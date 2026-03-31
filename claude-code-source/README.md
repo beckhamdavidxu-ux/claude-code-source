@@ -1,5 +1,21 @@
 # Claude Code 源码还原与构建
 
+## 从源码重新构建
+```bash
+# 1. 安装 Bun（构建工具）
+curl -LO https://github.com/oven-sh/bun/releases/latest/download/bun-darwin-aarch64.zip
+unzip bun-darwin-aarch64.zip -d /tmp/bun && sudo cp /tmp/bun/bun-darwin-aarch64/bun /usr/local/bin/bun
+
+# 2. 安装/更新依赖（可选，node_modules 已包含在仓库中）
+pnpm install --registry https://registry.npmjs.org
+
+# 3. 构建
+bun run build.ts
+
+# 4. 运行
+bun dist/cli.js --version
+```
+
 从 `@anthropic-ai/claude-code` v2.1.88 npm 包中的 `cli.js.map` source map 文件还原出的完整源代码，并配置为可编译运行。
 
 ## 效果验证
