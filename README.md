@@ -1,9 +1,9 @@
 # Cloud-code 破解版
 
-## 如何本地编译运行？
-> 本仓库已经还原好源码，看 claude-code-source 目录
-
-查阅claude-code-source/README.md
+## 食用指南
+1. 本仓库已经还原好源码，看 claude-code-source 目录
+2. 本地如何编译运行？请查阅claude-code-source/README.md
+3. 根目录下有个ai-cloud-xxxx.tgz文件，这个是2188原npm版本包
 
 ## 本仓库用到的还原方式
 ```bash
