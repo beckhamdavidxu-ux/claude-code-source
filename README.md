@@ -1,5 +1,8 @@
 # Cloud-code 破解版
 
+## 源码学习文档
+欢迎体验：https://cloud-code-study.vercel.app/
+
 ## 食用指南
 - 本仓库已经还原好源码，看 claude-code-source 目录
 - 本地如何编译运行？请查阅claude-code-source/README.md
