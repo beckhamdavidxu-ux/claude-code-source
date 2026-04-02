@@ -1,8 +1,8 @@
-# Tencent AI Code
+# Claude Code Source
 
 **Author: Tencent AI pkushinnxu** ｜ [中文](./README.md) ｜ English
 
-> A fork of Claude Code v2.1.88 with author information updated and integrated with the Doubao (ByteDance) LLM API. No Anthropic account required.
+> A fork of Claude Code v2.1.88 and integrated with the Doubao (ByteDance) LLM API. No Anthropic account required.
 
 ---
 

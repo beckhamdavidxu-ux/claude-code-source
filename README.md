@@ -1,8 +1,8 @@
-# Tencent AI Code
+# Claude Code Source
 
 **作者：Tencent AI pkushinnxu** ｜ [English](./README_en.md) ｜ 简体中文
 
-> 基于 Claude Code v2.1.88 源码的二次开发版本，已替换作者信息并接入豆包（Doubao）大模型 API，无需 Anthropic 账号即可使用。
+> 基于 Claude Code v2.1.88 源码的二次开发版本，接入豆包（Doubao）大模型 API，无需 Anthropic 账号即可使用。
 
 ---
 
