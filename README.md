@@ -27,7 +27,7 @@ claude-code1/
 │   ├── vendor/                # 内部 vendor 模块
 │   ├── stubs/                 # 私有包存根
 │   ├── build.ts               # Bun 构建脚本
-│   ├── package.json           # 项目配置（已更新作者为 Tencent AI pkushinnxu）
+│   ├── package.json           # 项目配置
 │   ├── tsconfig.json          # TypeScript 配置
 │   ├── dist/                  # 构建产出（bun run build.ts 后生成）
 │   │   └── cli.js             # 可执行文件（22MB）
