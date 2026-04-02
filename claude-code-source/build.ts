@@ -110,10 +110,10 @@ const result = await Bun.build({
     // MACRO constants inlined at build time
     'MACRO.VERSION': JSON.stringify(VERSION),
     'MACRO.BUILD_TIME': JSON.stringify(BUILD_TIME),
-    'MACRO.ISSUES_EXPLAINER': JSON.stringify('report the issue at https://github.com/anthropics/claude-code/issues'),
-    'MACRO.FEEDBACK_CHANNEL': JSON.stringify('https://github.com/anthropics/claude-code/issues'),
-    'MACRO.PACKAGE_URL': JSON.stringify('https://www.npmjs.com/package/@anthropic-ai/claude-code'),
-    'MACRO.NATIVE_PACKAGE_URL': JSON.stringify('https://www.npmjs.com/package/@anthropic-ai/claude-code'),
+    'MACRO.ISSUES_EXPLAINER': JSON.stringify('report the issue at https://github.com/pkushinnxu/claude-code/issues'),
+    'MACRO.FEEDBACK_CHANNEL': JSON.stringify('https://github.com/pkushinnxu/claude-code/issues'),
+    'MACRO.PACKAGE_URL': JSON.stringify('https://github.com/pkushinnxu/claude-code'),
+    'MACRO.NATIVE_PACKAGE_URL': JSON.stringify('https://github.com/pkushinnxu/claude-code'),
     'MACRO.VERSION_CHANGELOG': JSON.stringify(''),
     // Bun global
     'Bun.env.NODE_ENV': JSON.stringify('production'),

@@ -1,5 +1,5 @@
 {
-  "name": "cloud-code-source",
+  "name": "tencent-ai-code",
   "version": "2.1.88",
   "type": "module",
   "private": true,
@@ -126,5 +126,12 @@
     "patchedDependencies": {
       "commander@14.0.3": "patches/commander@14.0.3.patch"
     }
+  },
+  "description": "Tencent AI Code - AI coding assistant by pkushinnxu, powered by Doubao API",
+  "author": "Tencent AI pkushinnxu",
+  "homepage": "https://github.com/pkushinnxu/claude-code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkushinnxu/claude-code"
   }
 }
