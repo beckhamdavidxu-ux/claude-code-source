@@ -12,6 +12,14 @@ export const SandboxManager = {
   getFsWriteConfig() { return null },
   getNetworkRestrictionConfig() { return null },
   getIgnoreViolations() { return null },
+  annotateStderrWithSandboxFailures(_command, stderr) { return stderr },
+  cleanupAfterCommand() {},
+  getProxyPort() { return null },
+  getSocksProxyPort() { return null },
+  getLinuxHttpSocketPath() { return null },
+  getLinuxSocksSocketPath() { return null },
+  async waitForNetworkInitialization() {},
+  getSandboxViolationStore() { return new SandboxViolationStore() },
 }
 
 export const SandboxRuntimeConfigSchema = z.object({}).passthrough()
